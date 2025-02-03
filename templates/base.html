@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Plant Leaf Disease Detection{% endblock %}</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <!-- <header class="bg-green-600 text-white p-4"> -->
+    <!-- <h1 class="text-3xl font-bold"><a href="/">Plant Leaf Disease Prediction</a></h1> -->
+    <!-- Navbar -->
+    <nav class="bg-green-600 p-4 text-white flex justify-between">
+      <a href="/" class="text-xl font-bold">Plant Disease Detector</a>
+      <div>
+        <a href="/" class="mx-2">Home</a>
+        <a href="/upload">Upload</a>
+        <a href="/about" class="mx-2">About</a>
+        <a href="/contact" class="mx-2">Contact</a>
+      </div>
+    </nav>
+    <!-- </header> -->
+    <main class="p-4">{% block content %} {% endblock %}</main>
+    <footer class="bg-gray-800 text-white text-center p-4 mt-4">
+      <p>&copy; 2025 Plant Leaf Disease Prediction. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
