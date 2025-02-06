@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Setup Instructions
+SETUP.md
+
 # uploads folder which contains the uploaded images
 uploads
 
