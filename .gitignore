@@ -9,6 +9,17 @@ __pycache__/
 #Setup Instructions
 SETUP.md
 
+# Project Files
+Dataset
+static
+templates
+model.h5
+model1.json
+my_model_weights.h5
+PLDD.zip
+Training.py
+leaf.py
+
 # uploads folder which contains the uploaded images
 uploads
 
